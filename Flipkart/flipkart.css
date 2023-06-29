@@ -1,0 +1,139 @@
+﻿body {
+    font-family: Roboto,Arial,sans-serif;
+}
+.con {
+    height:56px;
+}
+.flip-bg {
+    background-color: #2874f0;
+}
+.logo{
+    flex-direction:column;
+    margin-left:120px;
+}
+.flip-img{
+    width: 75px;
+}
+.exp {
+    font-size: 11px;
+    color: white;
+    text-decoration:none;
+    font-style:italic;
+    font-weight:bold;
+    margin-top:-5px;
+}
+.exp-span {
+    font-size: 11px;
+    color: #ffe500
+}
+.exp-img {
+    width: 10px
+}
+.search-btn{
+    position:relative;
+    background-color:white;
+    border: none;
+    height: 37.6px;
+    width: 44px;
+    border-radius:0px 5px 5px 0px;
+    cursor: pointer;
+    padding:6px 14px 0 8px;
+    flex-direction: column;
+}
+
+.search-int{
+   
+    border:none;
+    border-radius:5px 0px 0px 5px;
+   outline:0;
+}
+.dropbtn {
+    border: none;
+    font-size: 16px;
+    height:32px;
+    font-weight: bold;
+    background-color: white;
+    color: #2874f0;
+    padding:0px 35px;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+ .dropdown-menu{
+    width:250px;
+}
+.listdrop{
+    display:flex;
+    padding:20px 20px;
+}
+ nav.dropdown-menu li {
+    display: flex;
+    padding: 12px 20px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+ .a-sign {
+    font-size: 14px;
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+  .dropdown-menu li a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+nav .dropdown-menu i {
+    padding-top: 5px;
+}
+.span-cus {
+    font-size: 14px;
+    font-weight:bold;
+}
+nav .dropdown-menu li i {
+    width: 20px;
+}
+nav .btn-seller {
+    border: none;
+    font-size: 16px;
+    height: 40px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    padding: 0 0px;
+}
+ul{
+    list-style:none;
+}
+
+.contain-item li{
+
+    padding:16px 16px 16px 24px;
+}
+@media screen and (max-width : 700px){
+    .contain-item{
+        justify-content:center;
+        overflow-x:auto;
+        display:flex;
+        flex-direction:row;
+    }
+}
+.contain-item p{
+    display:block;
+    text-align:center;
+}
+.contain-item .list-drop {
+    padding: 0;
+    width: 200px;
+    padding: 5px 15px;
+}
+.list-drop a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding:5px 5px;
+}
+
