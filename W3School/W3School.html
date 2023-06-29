@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>W3School</title>
+</head>
+<body>
+    <style>
+        body{
+            width:100%;
+            height:auto;
+        }
+        #logo {
+            width: 50px;
+            padding: 5px 16px 5px 15px;
+            display: inline-block;
+        }
+
+        #logo-div {
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .Top-div {
+            display: inline-block;
+            position: absolute;
+        }
+
+        .Top-element {
+            padding: 16px;
+            font-size: 16px;
+            color: black;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+            float: left;
+        }
+
+        .Top-element:hover {
+                background-color: forestgreen;
+                color: white;
+        }
+
+        .Top-divright {
+            float: right;
+            padding: 16px 30px 5px 0px;
+        }
+
+        .Top-right {
+            padding: 16px;
+            font-size: 16px;
+            color: black;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+        }
+
+        .top-btn {
+            position:relative;
+            width: 93px;
+            padding: 10px 16px;
+            font-size: 16px;
+            margin-right: -33px;
+            color: white;
+            background-color: #04AA6D;
+            border-radius: 25px;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+            z-index: 2;
+        }
+
+        .top-btn1 {
+            position:relative;
+            width: 112px;
+            padding: 10px 16px 10px 39px;
+            font-size: 16px;
+            color: black;
+            background-color: #D9EEE1;
+            border-radius: 25px;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+            z-index: 1;
+        }
+
+        .top-btn1:hover {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        #menu-div {
+            background-color: #282A35;
+            padding: 5px 15px 5px 10px;
+        }
+
+        .lang-menu {
+            color: white;
+            padding: 5px 15px 5px 10px;
+            font-size: 15px;
+            font-family: 'Source Sans Pro Topnav', sans-serif;
+        }
+
+       .lang-menu:hover {
+            background-color: #04AA6D;
+       }
+
+        .lang-rigt {
+            float: right;
+            padding: 0px 20px 0px 20px;
+        }
+
+        #left-menu {
+            position:relative;
+            height: 100%;
+            width: 230px;
+            display:inline-block;
+            background-color: #E7E9EB;
+            overflow-y: scroll;
+            overflow-x:hidden;
+            padding-top: 20px;
+        }
+        #head-menu {
+            font-size: 20px;
+            padding-left: 16px;
+            margin: -4px 0 4px 0;
+            width: 204px;
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight: 400;
+        }
+
+        .html-lesson {
+            display:block;
+            padding: 5px 1px 1px 16px;
+            font-size: 15px;
+            background-color: transparent;
+            font-family: "Segoe UI",Arial,sans-serif;
+            color:black;
+        }
+
+       .html-lesson:hover {
+            background-color: #cccccc;
+        }
+
+       .html-lesson:active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+       .right-content{
+           position:absolute;
+           display:inline-block;
+       }
+
+       .html-head {
+            margin:0;
+            font-size: 30px;
+            font-family: "Segoe UI",Arial,sans-serif;
+            font-weight:400;
+            padding: 30px 0px 5px 40px;
+        }
+
+        .intro-para {
+            margin: 0 0 0 25px;
+            background-color: #f1f1f1 ;
+            font-size: 16px;
+            display: block;
+            font-family: Verdana,sans-serif;
+            padding: 30px 25px;
+            border-radius:5px;
+        }
+        .intro-element {
+            margin: 0 0 0 25px;
+            background-color: #f1f1f1;
+            font-size: 16px;
+            display: flex;
+            font-family: Verdana,sans-serif;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+        #ul-html {
+            margin: 0 0 0 25px;
+            background-color: #f1f1f1;
+            font-size: 16px;
+            display: block;
+            font-family: Verdana,sans-serif;
+            padding: 30px 55px;
+            border-radius: 5px;
+        }
+
+        .ul-list{
+            padding-top:10px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/50539269d0.js" crossorigin="anonymous"></script>
+    <div id="logo-div">
+        <img id="logo" src="W3.png" />
+    </div>
+    <div class="Top-div">
+        <a class="Top-element" href="">Tutorials <i class="fa-sharp fa-solid fa-caret-down"></i> </a>
+        <a class="Top-element" href="">Exercise <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+        <a class="Top-element" href="">Get Certified <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+        <a class="Top-element" href="">Services <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+    </div>
+    <div class="Top-divright">
+        <a class="Top-right" href=""><i class="fa-solid fa-wand-magic-sparkles" style="color: #594474;"></i> BootCamps</a>
+        <a class="Top-right" href=""> <i class="fa-solid fa-gift" style="color: #04AA6D;"></i> Spaces</a>
+        <a href="" class="top-btn">Sign up</a>
+        <a href="" class="top-btn1">log in</a>
+    </div>
+    <div id="menu-div">
+        <a class="lang-menu" href="">HTML</a>
+        <a class="lang-menu" href="">CSS</a>
+        <a class="lang-menu" href="">JAVASCRIPT</a>
+        <a class="lang-menu" href="">SQL</a>
+        <a class="lang-menu" href="">PYTHON</a>
+        <a class="lang-menu" href="">JAVA</a>
+        <a class="lang-menu" href="">PHP</a>
+        <a class="lang-menu" href="">BOOTSTRAP</a>
+        <a class="lang-menu" href="">HOW TO</a>
+        <a class="lang-menu" href="">C</a>
+        <a class="lang-menu" href="">C++</a>
+        <a class="lang-menu" href="">C#</a>
+        <a class="lang-menu" href="">REACT</a>
+        <a class="lang-menu" href="">R</a>
+        <a class="lang-menu" href="">JQUERY</a>
+        <a class="lang-rigt" href=""><i class="fa-solid fa-magnifying-glass" style="color: #f3f4f7;"></i></a>
+        <a class="lang-rigt" href=""><i class="fa-solid fa-earth-americas" style="color: #ffffff;"></i></a>
+        <a class="lang-rigt" href=""><i class="fa-solid fa-circle-half-stroke" style="color: #ffffff;"></i></a>
+    </div>
+    <div id="left-menu">
+        <h2 id="head-menu">HTML TUTORIAL</h2>
+        <a class="html-lesson" href="">HTML HOME</a>
+        <a class="html-lesson" href="">HTML Introduction</a>
+        <a class="html-lesson" href="">HTML Editors</a>
+        <a class="html-lesson" href="">HTML Basics</a>
+        <a class="html-lesson" href="">HTML Elements</a>
+        <a class="html-lesson" href="">HTML Attributes</a>
+        <a class="html-lesson" href="">HTML Headings</a>
+        <a class="html-lesson" href="">HTML Paragraphs</a>
+        <a class="html-lesson" href="">HTML Styles</a>
+        <a class="html-lesson" href="">HTML Formatting</a>
+        <a class="html-lesson" href="">HTML Quotations</a>
+        <a class="html-lesson" href="">HTML Comments</a>
+        <a class="html-lesson" href="">HTML Colors</a>
+        <a class="html-lesson" href="">HTML CSS</a>
+        <a class="html-lesson" href="">HTML Links</a>
+        <a class="html-lesson" href="">HTML Images</a>
+        <a class="html-lesson" href="">HTML Favicon</a>
+        <a class="html-lesson" href="">HTML Page Title</a>
+        <a class="html-lesson" href="">HTML Classes</a>
+        <a class="html-lesson" href="">HTML Id</a>
+        <a class="html-lesson" href="">HTML Iframes</a>
+        <a class="html-lesson" href="">HTML JavaScript</a>
+        <a class="html-lesson" href="">HTML File Paths</a>
+    </div>
+    <div class="right-content">
+        <h1 class="html-head">HTML Introduction</h1>
+        <p class="intro-para">HTML is the standard markup language for creating Web pages.</p>
+        <div>
+            <h1 class="html-head">What is HTML?</h1>
+            <ul id="ul-html">
+                <li  class="ul-list">HTML stands for Hyper Text Markup Language</li>
+                <li  class="ul-list">HTML is the standard markup language for creating Web pages</li>
+                <li  class="ul-list">HTML describes the structure of a Web page</li>
+                <li  class="ul-list">HTML consists of a series of elements</li>
+                <li  class="ul-list">HTML elements tell the browser how to display the content</li>
+                <li  class="ul-list">HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="html-head">What is an HTML Element?</h1>
+            <div  class="intro-para">
+                <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+                <p>&lt;tagname&gt; Content goes here... &lt;/tagname&gt;</p>
+            </div>
+        </div>
+    </div>
+ </body>
+</html>
